@@ -24,9 +24,13 @@
 }
 
 .head {
-    background-color: red;
+    background-color: rgb(241, 67, 67);
+}
+
+.snake__body {
+    background-color: rgb(58, 58, 241);
 }
 
 .food {
-    background-color: purple;
+    background-color: rgb(255, 187, 0);
 }
