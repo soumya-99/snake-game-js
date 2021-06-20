@@ -23,14 +23,28 @@
     grid-template-columns: repeat(18, 1fr);
 }
 
+#scoreBox {
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+}
+
 .head {
     background-color: rgb(241, 67, 67);
+    border-radius: 50%;
+    border: .25vmin solid white;
 }
 
 .snake__body {
     background-color: rgb(58, 58, 241);
+    border: .25vmin solid white;
+    border-radius: 12px;
 }
 
 .food {
     background-color: rgb(255, 187, 0);
+    border: .25vmin solid white;
+    border-radius: 10px;
 }
